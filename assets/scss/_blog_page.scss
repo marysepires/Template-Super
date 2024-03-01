@@ -558,40 +558,6 @@
     }
 }
 
-.blog-info-link {
-
-    li {
-        float: left;
-        font-size: 14px;
-
-        a {
-            color: #999999;
-        }
-
-        i,
-        span {
-            font-size: 13px;
-            margin-right: 5px;
-        }
-
-        &::after {
-            content: "|";
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-
-        &:last-child::after {
-            display: none;
-        }
-    }
-
-    &::after {
-        content: "";
-        display: block;
-        clear: both;
-        display: table;
-    }
-}
 
 .blog_item_img {
     position: relative;
