@@ -2265,42 +2265,42 @@ hr {
 }
 
 .create-padding {
-    padding-top: 240px;
-    padding-bottom: 190px
+    padding-top: 120px;
+    padding-bottom: 60px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .create-padding {
-        padding-top: 240px;
-        padding-bottom: 190px
+        padding-top: 120px;
+        padding-bottom: 60px;
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .create-padding {
-        padding-top: 240px;
-        padding-bottom: 190px
+        padding-top: 120px;
+        padding-bottom: 60px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .create-padding {
         padding-top: 120px;
-        padding-bottom: 95px
+        padding-bottom: 60px;
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .create-padding {
         padding-top: 63px;
-        padding-bottom: 90px
+        padding-bottom: 60px;
     }
 }
 
 @media (max-width: 767px) {
     .create-padding {
         padding-top: 63px;
-        padding-bottom: 90px
+        padding-bottom: 60px;
     }
 }
 
