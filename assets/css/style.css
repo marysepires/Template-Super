@@ -2117,36 +2117,36 @@ hr {
 }
 
 .we-padding {
-    padding-top: 100px
+    padding-top: 60px
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .we-padding {
-        padding-top: 100px
+        padding-top: 60px
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .we-padding {
-        padding-top: 80px
+        padding-top: 30px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .we-padding {
-        padding-top: 80px
+        padding-top: 30px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .we-padding {
-        padding-top: 80px
+        padding-top: 30px
     }
 }
 
 @media (max-width: 767px) {
     .we-padding {
-        padding-top: 80px
+        padding-top: 30px
     }
 }
 
