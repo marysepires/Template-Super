@@ -62,7 +62,7 @@
 }
 
 
-#etapas{
+#etapas {
     height: 100%;
 }
 
@@ -159,6 +159,25 @@ p {
     line-height: 30px;
     margin-bottom: 15px;
     font-weight: normal
+}
+
+.number_card {
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 40px;
+    color: white;
+    border-radius: 3px;
+    width: 40px;
+    background-color: #ff5c97;
+}
+
+.number_card h3 {
+    font-size: 28px;
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+    color: white;
 }
 
 .bg-img-1 {
@@ -4737,7 +4756,7 @@ hr {
 }
 
 .blog_item {
-    
+
     margin-bottom: 50px
 }
 
@@ -5867,7 +5886,7 @@ hr {
 
 .haveAproject::before {
     background-image: -moz-linear-gradient(0deg, #ff5c98 0%, #7b40c0 100%);
-    background-image: -webkit-linear-gradient(0deg, #ff5c98 0%, #7b40c0 100%);
+    background-image: -webkit-linear-gradient(0deg, #221c2c 0%, #5c40c0 100%);
     background-image: -ms-linear-gradient(0deg, #ff5c98 0%, #7b40c0 100%)
 }
 

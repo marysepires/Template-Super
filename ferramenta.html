@@ -1,28 +1,30 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Template Projeto Super </title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="manifest" href="site.webmanifest">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Template Projeto Super </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- CSS here -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/slicknav.css">
-        <link rel="stylesheet" href="assets/css/animate.min.css">
-        <link rel="stylesheet" href="assets/css/slick.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-   </head>
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
-   <body>
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
 
     <header>
         <!-- Header Start -->
-       <div class="header-area header-transparrent ">
+        <div class="header-area header-transparrent ">
             <div class="main-header header-sticky">
                 <div class="container">
                     <div class="row align-items-center">
@@ -35,8 +37,8 @@
                         <div class="col-xl-10 col-lg-10 col-md-10">
                             <!-- Main-menu -->
                             <div class="main-menu f-right d-none d-lg-block">
-                                <nav> 
-                                    <ul id="navigation">    
+                                <nav>
+                                    <ul id="navigation">
                                         <li><a href="index.html"> Home</a></li>
                                         <li><a href="mapeamento.html">Mapeamento</a></li>
                                         <li><a href="revisao.html">Revisão</a></li>
@@ -49,7 +51,7 @@
                                     </ul>
                                 </nav>
                             </div>
-                        </div>             
+                        </div>
                         <!-- Mobile Menu -->
                         <div class="col-12">
                             <div class="mobile_menu d-block d-lg-none"></div>
@@ -57,145 +59,346 @@
                     </div>
                 </div>
             </div>
-       </div>
+        </div>
         <!-- Header End -->
     </header>
 
     <main>
 
-       
+
         <!-- We Create Start -->
         <div class="we-create-area create-padding">
             <div class="container">
                 <div class="row d-flex align-items-end">
                     <div class="col-lg-6 col-md-12">
                         <div class="we-create-img">
-                            <img src="assets/img//service/we-create.png" alt="">
+                            <img src="imagens/logos/logo_main.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="we-create-cap">
-                            <h3>Mapeamento Sistemático</h3>
-                            <p>O objetivo do Mapeamento Sistemático (MS) é coletar informações sobre o atual cenário da Machine Learning (ML) com o objetivo de identificar as áreas que atualmente empregam essa tecnologia, destacando suas aplicações mais relevantes e os algoritmos mais utilizados</p>
-                            <a href="#" class="btn">Saiba Mais</a>
+                            <h3>Ferramenta</h3>
+                            <p style="text-align: justify;">
+                                O FindDT é uma ferramenta de Machine Learning desenvolvida para identificar dívida
+                                técnica Auto-Admitida em código-fonte. Baseando-se em um trabalho prévio disponível no
+                                <a href="https://www.kaggle.com/code/finddt/projeto-finddt" style="color: darkorange;">
+                                    GitHub </a>(Li, Soliman e Avgeriou, 2022), a ferramenta utiliza um modelo
+                                pré-treinado e uma
+                                base de dados extraída desse trabalho como ponto de partida. Além disso, foi
+                                desenvolvido um modelo adicional utilizando SVM (Support Vector Machine) para
+                                identificação dos diferentes tipos de dívida técnica.
+                            </p>
+
+                            <br><br><br>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-       
+
+        <div class="choose-best ">
+            <div class="container">
+                <!-- Section-tittle -->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="section-tittle text-center">
+                            <h2>Funcionalidades </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-choose text-center mb-30">
+                            <div class="do-icon">
+                                <span  class="flaticon-growth"></span>
+                            </div>
+                            <div class="do-caption">
+                                <h4>Identificação Automatizada</h4>
+                                <p>Utiliza um modelo CNN pré-treinado para analisar os comentários e identificar possíveis áreas de dívida técnica no Código-Fonte   </p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-4 col-md-6">
+                        <div class="single-choose active text-center mb-30">
+                            <div class="do-icon">
+                                <span  class="flaticon-award"></span>
+                            </div>
+                            <div class="do-caption">
+                                <h4>Classificação por Tipos </h4>
+                                 <p>Aplica um modelo SVM para classificar os diferentes tipos de dívida técnica encontrados, como código complexo, falta de documentação, entre outros.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-4 col-md-6">
+                        <div class="single-choose text-center mb-30">
+                            <div class="do-icon">
+                                <span  class="flaticon-project"></span>
+                            </div>
+                            <div class="do-caption">
+                                <h4>Relatórios Detalhados</h4>
+                                <p>Gera relatórios detalhados sobre a localização, natureza e gravidade da dívida técnica identificada, facilitando o planejamento e a priorização das atividades de refatoração</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="generating-area we-padding ">
+            <div class="container">
+                <!-- Section-tittle -->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-tittle text-center">
+                            <h2>Implementação​</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="single-generating d-flex mb-30">
+                            <div class="generating-icon">
+                                <span class="flaticon-chart"></span>
+                            </div>
+                            <div class="generating-cap">
+                                <div class="number_card">
+                                    <h3>1</h3>
+                                </div>
+                                <h4>Análise e Entendimento do Problema</h4>
+                                <p>Nesta fase foi crucial entender o problema da dívida técnica e como ela afeta o
+                                    desenvolvimento de software, por isso foi realizado uma Revisão Sistemática, onde
+                                    Identificamos os diferentes tipos de dívida técnica e suas causas comuns. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6" id="etapas">
+                        <div class="single-generating d-flex mb-30">
+                            <div class="generating-icon">
+                                <span class="flaticon-social-media-marketing"></span>
+                            </div>
+                            <div class="generating-cap">
+                                <div class="number_card">
+                                    <h3>2</h3>
+                                </div>
+                                <h4>Aquisição Dataset e Modelo</h4>
+                                <p>Após a primeira fase, tivemos acesso ao modelo CNN pré-treinado e os dados,
+                                    identificamos
+                                    a necessidade de pré-processamento, incluindo limpeza, tratamento de valores
+                                    ausentes e remoção de duplicatas. Ao finalizar esse processo, refinamos o conjunto
+                                    de dados para focar em apenas cinco tipos de dívida técnica detectáveis via código
+                                    fonte.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6" id="etapas3">
+                        <div class="single-generating d-flex mb-30">
+                            <div class="generating-icon">
+                                <span class="flaticon-speaker"></span>
+                            </div>
+                            <div class="generating-cap">
+                                <div class="number_card">
+                                    <h3>3</h3>
+                                </div>
+                                <h4>Treinamento e Avaliação do Modelo</h4>
+                                <p>Para a realização do treinamento utilizamos estruturas como TensorFlow, FastText e
+                                    joblib. Etapa onde o modelo SVM foi treinado usando a base de dados pré-processada.
+                                    A avaliação o desempenho do modelo foi feita usando métricas apropriadas, como
+                                    precisão, recall e F1-score.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6" id="etapas2">
+                        <div class="single-generating d-flex mb-30">
+                            <div class="generating-icon">
+                                <span class="flaticon-growth"></span>
+                            </div>
+                            <div class="generating-cap">
+                                <div class="number_card">
+                                    <h3>4</h3>
+                                </div>
+                                <h4>Implementação da Ferramenta</h4>
+                                <p>O próximo passo foi integrar o modelo CNN e o modelo SVM em uma ferramenta. Assim não
+                                    só identificando se há dívida técnica no código fonte, mas o tipo, a linha do
+                                    código. Refinando mais a ferramenta foi possível fazê-la reconhecer mais de um tipo
+                                    de linguagem de programação.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 " id="etapas4">
+                        <div class="single-generating d-flex mb-30">
+                            <div class="generating-icon">
+                                <span class="flaticon-growth"></span>
+                            </div>
+                            <div class="generating-cap">
+                                <div class="number_card">
+                                    <h3>5</h3>
+                                </div>
+                                <h4>Testes e Depuração</h4>
+                                <p>Na fase de Testes e Depuração da ferramenta FindDT, foram realizados procedimentos
+                                    abrangentes para garantir o seu desempenho e funcionamento adequado em diversos
+                                    tipos de identificação de Dívida técnica e tipos de código-fonte. Ao realizar esses
+                                    procedimentos de testes de forma abrangente e eficaz, garantimos que a ferramenta
+                                    esteja executando da melhor forma possível, assim ajudando desenvolvedores na
+                                    identificação eficaz da Dívida técnica Auto-Adimitida em Código Fonte.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        
+    
+
+        <!-- have-project Start-->
+        <div class="have-project choose-padding">
+            <div class="container">
+                <div class="haveAproject" data-background="assets/img/team/have.jpg">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-xl-7 col-lg-9 col-md-12">
+                            <div class="wantToWork-caption">
+                                <h2>Quer Saber mais?</h2>
+                                <p>Nós desenvolvemos um tutorial sobre como usar a ferramenta, explicando passo a passo
+                                    seu funcionamento, bem como fazer o download gratuito dos modelos pré-treinados e do
+                                    dataset utilizado.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-3 col-md-12">
+                            <div class="wantToWork-btn f-right" style="display: flex; flex-direction: column;">
+                                <a href="ferramenta_usar.html" class="btn btn-ans" style="margin-bottom: 10px;">Como Usar</a>
+                                <a href="ferramenta_baixar.html" class="btn btn-ans"  style="margin-top: 10px;">Baixar</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- have-project End -->
 
     </main>
-   <footer>
+    <footer>
 
-       <!-- Footer Start-->
-      <div class="footer-main" data-background="assets/img/shape/footer_bg.png">
-        <div class="footer-area footer-padding">
-            <div class="container">
-                <div class="row d-flex justify-content-between">
-                    <div class="col-lg-3 col-md-4 col-sm-8">
-                       <div class="single-footer-caption mb-50">
-                         <div class="single-footer-caption mb-30">
-                              <!-- logo -->
-                             <div class="footer-logo">
-                                 <a href="index.html"><img src="imagens/logo.png" alt="" style="width: 200px;"></a>
-                             </div>
-                             <div class="footer-tittle">
-                                 <div class="footer-pera">
-                                     <p class="info1">221B Baker Street, P.O Box 353 Park <br> Road, USA - 215431</p>
-                                     <p class="info2">info@yourdomain.com</p>
+        <!-- Footer Start-->
+        <div class="footer-main" data-background="assets/img/shape/footer_bg.png">
+            <div class="footer-area footer-padding">
+                <div class="container">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-lg-3 col-md-4 col-sm-8">
+                            <div class="single-footer-caption mb-50">
+                                <div class="single-footer-caption mb-30">
+                                    <!-- logo -->
+                                    <div class="footer-logo">
+                                        <a href="index.html"><img src="imagens/logo.png" alt=""
+                                                style="width: 200px;"></a>
+                                    </div>
+                                    <div class="footer-tittle">
+                                        <div class="footer-pera">
+                                            <p class="info1">221B Baker Street, P.O Box 353 Park <br> Road, USA - 215431
+                                            </p>
+                                            <p class="info2">info@yourdomain.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="footer-social">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fas fa-globe"></i></a>
+                                        <a href="#"><i class="fab fa-behance"></i></a>
+                                    </div>
                                 </div>
-                             </div>
-                             <div class="footer-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fas fa-globe"></i></a>
-                                <a href="#"><i class="fab fa-behance"></i></a>
                             </div>
-                         </div>
-                       </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-sm-5">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Quick Links</h4>
-                                <ul>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="about.html">Features</a></li>
-                                    <li><a href="single-blog.html">Pricing</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Quick Links</h4>
+                                    <ul>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="about.html">Features</a></li>
+                                        <li><a href="single-blog.html">Pricing</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-7">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Support</h4>
+                                    <ul>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#"> Sitemap</a></li>
+                                        <li><a href="#">FAQs</a></li>
+                                        <li><a href="#">Report a bugb</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Core Features</h4>
+                                    <ul>
+                                        <li><a href="#">Email Marketing</a></li>
+                                        <li><a href="#"> Offline SEO</a></li>
+                                        <li><a href="#">Social Media Marketing</a></li>
+                                        <li><a href="#">Lead Generation</a></li>
+                                        <li><a href="#"> 24/7 Support</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-4 col-sm-7">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Support</h4>
-                                <ul>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Terms & Conditions</a></li>
-                                    <li><a href="#"> Sitemap</a></li>
-                                    <li><a href="#">FAQs</a></li>
-                                    <li><a href="#">Report a bugb</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-5">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Core Features</h4>
-                                <ul>
-                                 <li><a href="#">Email Marketing</a></li>
-                                 <li><a href="#"> Offline SEO</a></li>
-                                 <li><a href="#">Social Media Marketing</a></li>
-                                 <li><a href="#">Lead Generation</a></li>
-                                 <li><a href="#"> 24/7 Support</a></li>
-                             </ul>
+                </div>
+            </div>
+            <!-- footer-bottom aera -->
+            <div class="footer-bottom-area footer-bg">
+                <div class="container">
+                    <div class="footer-border">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-xl-12 ">
+                                <div class="footer-copy-right text-center">
+                                    <p>
+                                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                        Copyright &copy;<script>
+                                            document.write(new Date().getFullYear());
+                                        </script> All rights reserved | This template is made with <i class="ti-heart"
+                                            aria-hidden="true"></i> by <a href="https://colorlib.com"
+                                            target="_blank">Colorlib</a>
+                                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- footer-bottom aera -->
-        <div class="footer-bottom-area footer-bg">
-            <div class="container">
-                <div class="footer-border">
-                     <div class="row d-flex align-items-center">
-                         <div class="col-xl-12 ">
-                             <div class="footer-copy-right text-center">
-                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                             </div>
-                         </div>
-                     </div>
-                </div>
-            </div>
-        </div>
-      </div>
-       <!-- Footer End-->
+        <!-- Footer End-->
 
-   </footer>
-   
-	<!-- JS here -->
-	
-		<!-- All JS Custom Plugins Link Here here -->
-        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
-		<!-- Jquery,  Bootstrap -->
-		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-        <script src="./assets/js/bootstrap.min.js"></script>
-	    <!-- Jquery Mobile Menu -->
-        <script src="./assets/js/jquery.slicknav.min.js"></script>
-        <script src="./assets/js/slick.min.js"></script>
-		<script src="./assets/js/animated.headline.js"></script>
-		<script src="./assets/js/jquery.sticky.js"></script>
-		<!-- Jquery Plugins, main Jquery -->	
-        <script src="./assets/js/plugins.js"></script>
-        <script src="./assets/js/main.js"></script>
-        
-    </body>
+    </footer>
+
+    <!-- JS here -->
+
+    <!-- All JS Custom Plugins Link Here here -->
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery,  Bootstrap -->
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/animated.headline.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
 </html>
