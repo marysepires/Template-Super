@@ -158,7 +158,8 @@ p {
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 15px;
-    font-weight: normal
+    font-weight: normal;
+    text-align: justify;
 }
 
 .number_card {
@@ -450,6 +451,9 @@ hr {
     background: #ff3500
 }
 
+.we-create-cap{
+text-align: center;
+}
 .btn {
     background: #ff5c97;
     -moz-user-select: none;
