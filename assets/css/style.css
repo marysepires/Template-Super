@@ -61,6 +61,34 @@
     cursor: pointer
 }
 
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.testimonial-caption {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.testimonial-founder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.founder-img img {
+    width: 150px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.founder-text {
+    margin-top: 10px;
+}
+
+
 
 #etapas {
     height: 100%;
