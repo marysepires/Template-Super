@@ -19,16 +19,22 @@
 
 
 /* Normal desktop :992px. */
-@media (min-width: 992px) and (max-width: 1200px) {
-
+@media (min-width: 993px) and (max-width: 1200px) {
+    #equipe3{
+        padding-right: 60px;
+    }
 
 }
 
  
-/* Tablet desktop :768px. */
-@media (min-width: 770px) and (max-width: 991px) {
 
-
+@media (min-width: 992px) {
+     
+    .sobre {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
 
  
