@@ -15,6 +15,17 @@
     margin-top: 60px;
    }
 
+#contatos_footer{
+    right: -50px;
+}
+
+.intro_2{
+    top: -125px;
+    padding-left: 5%;
+}
+
+
+
 }
 
 
@@ -23,6 +34,8 @@
     #equipe3{
         padding-right: 60px;
     }
+
+    
 
 }
 
