@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/site/icone.png">
 
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -40,16 +40,17 @@
                             <div class="main-menu f-right d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
+                                        
                                         <li><a href="index.html"> Home</a></li>
                                         <li><a href="mapeamento.html">Mapeamento Sistemático</a></li>
                                         <li><a href="revisao.html">Revisão Rápida</a></li>
                                         <li><a href="ferramenta.html">Ferramenta FindDT</a>
                                             <ul class="submenu">
+                                                <li id="subme"><a href="ferramenta.html">Ferramenta</a></li>
                                                 <li><a href="ferramenta_usar.html">Como Usar</a></li>
-                                                <li><a href="ferramenta_baixar.html">Baixar</a></li>
+                                                <li><a href="ferramenta_baixar.html">Como Baixar</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="index.html#sobre">Sobre</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -69,7 +70,7 @@
 
 
         <!-- We Create Start -->
-        <div class="we-create-area create-padding" style="padding-bottom: 0;">
+        <div class="we-create-area create-padding" style="padding-bottom: 0;" id="intro_rev">
             <div class="container">
                 <div class="row d-flex align-items-sm-center">
                     <div class="col-lg-6 col-md-12">
@@ -85,13 +86,13 @@
                         </div>
 
                     </div>
-                    <div class="col-lg-6 col-md-12">
+                    <div class="col-lg-6 col-md-12" id="img_ferr">
                         <div class="we-create-img">
                             <img src="imagens/logos/logo_main.png" alt="">
                         </div>
                     </div>
 
-                    <div class="intro_2">
+                    <div class="intro_2" id="img_ferr2">
                         <p style="text-align: justify;">Baseando-se em um trabalho
                             prévio disponível no
                             <a href="https://www.kaggle.com/code/finddt/projeto-finddt" style="color: darkorange;">
@@ -110,7 +111,7 @@
             </div>
         </div>
 
-        <div class="choose-best ">
+        <div class="choose-best " id="img_ferr">
             <div class="container">
                 <!-- Section-tittle -->
                 <div class="row d-flex justify-content-center">
@@ -127,7 +128,10 @@
                                 <span class="flaticon-growth"></span>
                             </div>
                             <div class="do-caption">
-                                <h4>Identificação Automatizada</h4>
+                            
+                                <div class="do-caption">
+                                    <h3 id="subt2" style="font-weight:bold; ">Identificação Automatizada​</h3>
+                                </div>
                                 <p>Utiliza um modelo CNN pré-treinado para analisar os comentários e identificar
                                     possíveis áreas de dívida técnica no Código-Fonte </p>
                             </div>
@@ -139,7 +143,9 @@
                                 <span class="flaticon-award"></span>
                             </div>
                             <div class="do-caption">
-                                <h4>Classificação por Tipos </h4>
+                                <div class="do-caption">
+                                    <h3 id="subt2" style="font-weight:bold; ">Classificação por Tipos​</h3>
+                                </div>
                                 <p>Aplica um modelo SVM para classificar os diferentes tipos de dívida técnica
                                     encontrados, como código complexo, falta de documentação, entre outros.</p>
                             </div>
@@ -151,7 +157,8 @@
                                 <span class="flaticon-project"></span>
                             </div>
                             <div class="do-caption">
-                                <h4>Relatórios Detalhados</h4>
+                                    <h3 id="subt2" style="font-weight:bold; ">Relatórios Detalhados​</h3>
+                                </div>
                                 <p>Gera relatórios detalhados sobre a localização, natureza e gravidade da dívida
                                     técnica identificada, facilitando o planejamento e a priorização das atividades de
                                     refatoração</p>
@@ -162,8 +169,8 @@
             </div>
         </div>
 
-        <div class="generating-area we-padding ">
-            <div class="container">
+        <div class="generating-area we-padding "  id="img_ferr3">
+            <div class="container" >
                 <!-- Section-tittle -->
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-8">
@@ -267,7 +274,17 @@
         </div>
 
 
-
+        <div class="references" style="padding-top: 0; padding-bottom: 70px;" id="baixar_doc">
+            <div class="we-create-cap">
+                <h3 id="subt" style="font-weight:750; ">Relatório Completo​</h3>
+            </div>
+            <div class="reference" style="width: 79%; background-color: white; box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);">
+                <p style="font-size: large; color: #707B8E; ">Para acessar o relatório completo da Plataforma Code Debt e da Ferramenta FindDT, clique no botão abaixo para fazer o download.</p>
+                <div class="d-flex flex-column align-items-center">
+                <a  href="#" class="btn ">Baixar Documento</a>
+            </div>
+            </div>
+        </div>
 
         <!-- have-project Start-->
         <div class="have-project ">
@@ -283,12 +300,15 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-xl-5 col-lg-3 col-md-12">
-                            <div class="wantToWork-btn f-right" style="display: flex; flex-direction: column;">
-                                <a href="ferramenta_usar.html" class="btn btn-ans"
+                        <div class="col-xl-5 col-lg-3 col-md-12" >
+                            <div class="wantToWork-btn f-right" style="display: flex; flex-direction: column;" >
+                               
+                                    <a href="ferramenta_usar.html" class="btn btn-ans"
                                     style="margin-bottom: 10px; font-weight: bold;">Como Usar</a>
                                 <a href="ferramenta_baixar.html" class="btn btn-ans"
-                                    style="margin-top: 10px;font-weight: bold;">Baixar</a>
+                                    style="margin-top: 10px;font-weight: bold;">Como Baixar</a>
+                              
+                               
                             </div>
                         </div>
 
@@ -300,8 +320,10 @@
         <!-- have-project End -->
 
 
-        <div class="references we-padding">
-            <h1 class="we-padding" style="font-weight: bolder;">Referências</h1>
+        <div class="references we-padding" id="baixar_doc">
+            <div class="we-create-cap">
+                <h3 id="subt" style="font-weight:750; ">Referência​</h3>
+            </div>
             <div class="reference">
                 <p>Li, Y.; Soliman, M. e Avgeriou, P. (2022). <b>Identifying Self-Admitted Technical Debt in Issue
                         Tracking Systems Using Machine Learning.</b> Empirical Software Engineering, v. 27, n. 131.
@@ -316,10 +338,10 @@
         <!-- Footer Start-->
         <div class="footer-main" data-background="assets/img/shape/footer_bg.png">
             <div class="footer-area footer-padding">
-                <div class="container ">
-                    <div class="row d-flex justify-content-between">
+                <div class="container " >
+                    <div class="row d-flex justify-content-between" >
 
-                        <div class="col-lg-3 col-md-4 col-sm-5">
+                        <div class="col-lg-3 col-md-4 col-sm-5" >
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
                                     <h4>ICET</h4>
@@ -347,12 +369,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-5   col-md-4 col-sm-5">
+                        <div class="col-lg-5   col-md-4 col-sm-5" >
                             <div class="single-footer-caption mb-56">
                                 <div class="footer-tittle">
                                     <h4 class="text-center" style="margin-bottom: 2px; ">Apoiadores</h4>
-
-                                    <div class="row align-items-center justify-content-center">
+                                    <div class="row align-items-center justify-content-center"  id="footer_end">
                                         <img style="width: 150px;" src="imagens/site/icet.png" alt="">
                                         <img style="width: 170px;" src="imagens/site/ufam.png" alt="">
                                         <img style="width: 170px;" src="imagens/site/super.png" alt="">

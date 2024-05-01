@@ -14,11 +14,16 @@
 // mobile_menu
     var menu = $('ul#navigation');
     if(menu.length){
+      $(window).on('load resize', function() {
+        if ($(window).width() < 1200) {
+          $('#subme').css('display', 'block');
+       } });
       menu.slicknav({
         prependTo: ".mobile_menu",
         closedSymbol: '+',
         openedSymbol:'-'
       });
+      
     };
 
 
@@ -235,3 +240,9 @@
           }
         });
       }
+
+    
+
+
+
+})(jQuery);

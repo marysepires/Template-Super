@@ -21,9 +21,12 @@
 
 .intro_2{
     top: -130px;
-    margin-left: 1%;S
+    margin-left: 1%;
 }
 
+#subt{
+    font-size: 45px;
+}
 
 
 }
@@ -31,9 +34,7 @@
 
 /* Normal desktop :992px. */
 @media (min-width: 993px) and (max-width: 1200px) {
-    #equipe3{
-        padding-right: 60px;
-    }
+
 
     
 
@@ -50,15 +51,95 @@
     
 }
 
+
  
 /* small mobile :320px. */
 @media (max-width: 770px) {
- 
- 
+    #bemvindo{
+       margin-top: 5%;
+      margin-left: 2%;
+      width: 100%;
+    }
+
+    #text_resu{
+        font-size: 28px;
+    }
+
+    #text_bemvindo{
+         width: 90%;
+    }
+    
+    #area_ques{
+        padding-top: 0px;
+    }
+    #resultado_pesq{
+        padding-top: 0px;
+    }
+
+    #text_super{
+        padding-top: 5%;
+    }
+
+    #equipe3{
+        width: auto;
+    }
+  
+    #footer_end{
+        width: 620px;
+    }
+   
+    #objetivo_mape{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        top: -180px;
+    }
+    
+    #subt{
+        font-size: 25px;
+    }
+
+    #subt2{
+        font-size: 20px;
+    }
+
+    #intro_rev{
+        padding-top: 100px;
+    }
+
+    #img_rev{
+         top: -180px;
+    }
+    #img_ferr{
+        top: -150px;
+   }
+
+   #img_ferr2{
+    top: -240px;
+}
+
+#img_ferr3{
+    top: -120px;
+}
+    #area_ques{
+        padding-top: 0px;
+    } 
+
+
+    #img_super{
+        width: 60%;
+        margin-left: 20%;
+    }
+
 }
  
-/* Large Mobile :480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
+
+@media (max-width: 540px) {
+    .container{
+        margin-left: 15%;
+    }
+
+    #baixar_doc{
+        margin-left: 15%;
+        width: 540px;
+    }
 }

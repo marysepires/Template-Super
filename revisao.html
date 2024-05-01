@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/site/icone.png">
 
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -40,16 +40,17 @@
                             <div class="main-menu f-right d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
+                                        
                                         <li><a href="index.html"> Home</a></li>
                                         <li><a href="mapeamento.html">Mapeamento Sistemático</a></li>
                                         <li><a href="revisao.html">Revisão Rápida</a></li>
                                         <li><a href="ferramenta.html">Ferramenta FindDT</a>
                                             <ul class="submenu">
+                                                <li id="subme"><a href="ferramenta.html">Ferramenta</a></li>
                                                 <li><a href="ferramenta_usar.html">Como Usar</a></li>
-                                                <li><a href="ferramenta_baixar.html">Baixar</a></li>
+                                                <li><a href="ferramenta_baixar.html">Como Baixar</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="index.html#sobre">Sobre</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -68,7 +69,7 @@
     <main>
 
         <!-- Introdução Start-->
-        <div class="we-create-area create-padding">
+        <div class="we-create-area create-padding" id="intro_rev">
             <div class="container">
                 <div class="row d-flex align-items-end">
                     <div class="col-lg-6 col-md-12">
@@ -83,7 +84,7 @@
                         </div>
                         <br><br><br>
                     </div>
-                    <div class="col-lg-6 col-md-12">
+                    <div class="col-lg-6 col-md-12" id="img_rev">
                         <div class="we-create-img">
                             <img src="imagens/site/rb.jpg" alt="" style="border-radius: 10px;">
                         </div>
@@ -97,7 +98,7 @@
         <!-- Introdução End-->
 
         <!-- Objetivo  e Fontes Start-->
-        <div class="we-create-area " style="padding-top: 5rem;">
+        <div class="we-create-area " style="padding-top: 5rem;" id="objetivo_mape">
             <div class="container">
                 <div class="row d-flex align-items-sm-baseline">
                     <div class="col-lg-6 col-md-12">
@@ -116,7 +117,7 @@
                                 <p>A fonte de busca utilizada foi o Google Acadêmico, sendo o método de busca
                                     manual utilizando o termo "Technical Debt" para encontrar publicações em inglês
                                     e "Dívida Técnica" para publicações em português. Ao final da pesquisa foram
-                                    selecionadas 34 publicações entre os anos de 2018 a 2023. </p>
+                                    selecionadas 33 publicações entre os anos de 2018 a 2023. </p>
                         </div>
                     </div>
 
@@ -128,14 +129,14 @@
 
 
         <!-- Questões de pesquisa Start-->
-        <div class="services-area" style="padding-top: 5rem;">
+        <div class="services-area" style="padding-top: 5rem;" id="area_ques">
             <div class="container">
 
                 <!-- Section-tittle -->
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-8">
-                        <div class="section-tittle text-center mb-80">
-                            <h3 style="font-size: 45px; font-weight: bold;">Questões de Pesquisa​</h3>
+                        <div class="we-create-cap">
+                            <h3 id="subt" style="font-weight:750; ">Questões de Pesquisa​</h3>
                         </div>
                     </div>
                 </div>
@@ -187,14 +188,16 @@
 
 
 
-            <div class="references we-padding">
-                <h1 class="" style="font-weight: bolder; padding-bottom: 2rem;">Quer Saber Mais?</h1>
+            <div class="references we-padding" id="baixar_doc">
+                <div class="we-create-cap">
+                    <h3 id="subt" style="font-weight:750; ">Quer Saber Mais?​</h3>
+                </div>
                 <div class="reference"
                     style="width: 60%; background-color: white; box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);">
                     <p style="font-size: large; color: #707B8E; ">Para acessar o relatório completo da Revisão
                         Rápida realizada, clique no botão abaixo para fazer o download.</p>
                     <div class="d-flex flex-column align-items-center">
-                        <a href="#" class="btn ">Baixar Documento</a>
+                        <a href="relatorios\Relatório Técnico - Dívida Técnica em Projetos de Software Uma Revisão Rápida.pdf" class="btn ">Baixar Documento</a>
                     </div>
                 </div>
             </div>
@@ -205,10 +208,10 @@
         <!-- Footer Start-->
         <div class="footer-main" data-background="assets/img/shape/footer_bg.png">
             <div class="footer-area footer-padding">
-                <div class="container ">
-                    <div class="row d-flex justify-content-between">
+                <div class="container " >
+                    <div class="row d-flex justify-content-between" >
 
-                        <div class="col-lg-3 col-md-4 col-sm-5">
+                        <div class="col-lg-3 col-md-4 col-sm-5" >
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
                                     <h4>ICET</h4>
@@ -236,12 +239,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-5   col-md-4 col-sm-5">
+                        <div class="col-lg-5   col-md-4 col-sm-5" >
                             <div class="single-footer-caption mb-56">
                                 <div class="footer-tittle">
                                     <h4 class="text-center" style="margin-bottom: 2px; ">Apoiadores</h4>
-
-                                    <div class="row align-items-center justify-content-center">
+                                    <div class="row align-items-center justify-content-center"  id="footer_end">
                                         <img style="width: 150px;" src="imagens/site/icet.png" alt="">
                                         <img style="width: 170px;" src="imagens/site/ufam.png" alt="">
                                         <img style="width: 170px;" src="imagens/site/super.png" alt="">

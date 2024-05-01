@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/site/icone.png">
 
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  
+
 
     <header>
         <!-- Header Start -->
@@ -41,16 +41,17 @@
                             <div class="main-menu f-right d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
+                                        
                                         <li><a href="index.html"> Home</a></li>
                                         <li><a href="mapeamento.html">Mapeamento Sistemático</a></li>
                                         <li><a href="revisao.html">Revisão Rápida</a></li>
                                         <li><a href="ferramenta.html">Ferramenta FindDT</a>
                                             <ul class="submenu">
+                                                <li id="subme"><a href="ferramenta.html">Ferramenta</a></li>
                                                 <li><a href="ferramenta_usar.html">Como Usar</a></li>
-                                                <li><a href="ferramenta_baixar.html">Baixar</a></li>
+                                                <li><a href="ferramenta_baixar.html">Como Baixar</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="index.html#sobre">Sobre</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -69,22 +70,21 @@
     <main>
 
         <!-- Slider Area Start-->
-        <div class="slider-area " style="padding-top: 0px;">
+        <div class="slider-area " style="padding-top: 0px;" >
             <div class="slider-active">
                 <div class="single-slider slider-height d-flex align-items-center"
                     data-background="assets/img/hero/h1_hero.png">
-                    <div class="container">
-                        <div class="row d-flex align-items-center">
+                    <div class="container"  id="text_bemvindo" >
+                        <div class="row d-flex align-items-center" id="bemvindo">
                             <div class="col-lg-7 col-md-9 ">
                                 <div class="hero__caption">
-                                    <h1 data-animation="fadeInLeft" data-delay=".4s">Bem Vindos!</h1>
+                                    <h1 data-animation="fadeInLeft" data-delay=".4s">Bem-Vindos!</h1>
                                     <p data-animation="fadeInLeft" data-delay=".6s">Esta é uma Plataforma Educacional
-                                        que apresentará os resultados do Projeto de Pesquisa "Uma Ferramenta com
-                                        Técnicas de Aprendizado de Máquina para Identificar a Dívida Técnica
-                                        Auto-Admitida em Código-Fonte", desenvolvido pelos alunos Lucas Pinheiro e
-                                        Maryse Pires, sob coordenação da Professora Odette Passos. O projeto foi
-                                        realizado no âmbito do Projeto Samsung-UFAM de Ensino e Pesquisa (SUPER). Todos
-                                        os resultados obtidos estão descritos na seção "Resultados da Pesquisa".</p>
+                                        que apresenta os resultados do Projeto de Pesquisa "Uma Ferramenta com Técnicas
+                                        de Aprendizado de Máquina para Identificar a Dívida Técnica Auto-Admitida em
+                                        Código-Fonte", desenvolvido pelos alunos Lucas Pinheiro e Maryse Pires, sob
+                                        coordenação da Professora Odette Passos. O projeto foi realizado no âmbito do
+                                        Projeto Samsung-UFAM de Ensino e Pesquisa (SUPER).</p>
 
                                 </div>
                             </div>
@@ -96,19 +96,19 @@
                         </div>
                     </div>
                 </div>
-             
+
             </div>
         </div>
         <!-- Indrodução End-->
 
         <!-- Resultados da Pesquisa start-->
-        <div class="what-we-do " style="padding-top: 0px;">
+        <div class="what-we-do " style="padding-top: 0px;" id="resultado_pesq">
             <div class="container">
                 <!-- Section-tittle -->
-                <div class="row d-flex justify-content-center" style="height: 120px;">
+                <div class="row d-flex justify-content-center"  >
                     <div class="col-lg-5">
                         <div class="section-tittle text-center" style="align-items: flex-end;">
-                            <h2>Resultados da Pesquisa​</h2>
+                            <h2 id="text_resu">Resultados da Pesquisa​</h2>
                         </div>
                     </div>
                 </div>
@@ -171,15 +171,18 @@
         <!-- Resultados da Pesquisa End-->
 
         <!-- Super Start -->
-        <div class="we-create-area" style="padding-top: 7rem;">
+        <div class="we-create-area" style="padding-top: 7rem;" id="area_ques">
             <div class="container">
                 <div class="row d-flex align-items-end">
-                    <div class="col-lg-5 col-md-11">
-                        <div class="we-create-img">
-                            <img src="imagens/site/super.png" alt="Imagem Super">
+                   
+                    <div class="col-lg-5 col-md-11" >
+                        <div class="we-create-img" >
+                            <div class="campo_super">
+                            <img src="imagens/site/super.png" alt="Imagem Super" id="img_super" >
+                           </div>
                         </div>
                     </div>
-                    <div class="col-lg-7 col-md-12" style="align-items: center;">
+                    <div class="col-lg-7 col-md-12" style="align-items: center;"  id="text_super">
                         <div class="we-create-cap">
                             <h3>Projeto Super</h3>
                             <p>O SUPER é um projeto colaborativo entre a SAMSUNG e a Universidade Federal do Amazonas
@@ -245,14 +248,14 @@
                             </div>
                         </div>
 
-                        <div class="testimonial-caption" id="equipe3">
+                        <div class="testimonial-caption" >
                             <!-- Founder 3 -->
-                            <div class="testimonial-founder">
+                            <div class="testimonial-founder" id="equipe3">
                                 <div class="founder-img">
                                     <img src="imagens/site/odette.png" alt=""
                                         style="border-radius: 50%;height: 170px; ">
                                 </div>
-                                <div class="founder-text">
+                                <div class="founder-text" id="equipe3" >
                                     <span>Odette Passos</span>
                                     <p style="margin-bottom: 3px;">ORIENTADORA</p>
                                     <a href="mailto:odette@ufam.edu.br">
@@ -274,10 +277,10 @@
         <!-- Footer Start-->
         <div class="footer-main" data-background="assets/img/shape/footer_bg.png">
             <div class="footer-area footer-padding">
-                <div class="container ">
-                    <div class="row d-flex justify-content-between">
+                <div class="container " >
+                    <div class="row d-flex justify-content-between" >
 
-                        <div class="col-lg-3 col-md-4 col-sm-5">
+                        <div class="col-lg-3 col-md-4 col-sm-5" >
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
                                     <h4>ICET</h4>
@@ -305,12 +308,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-5   col-md-4 col-sm-5">
+                        <div class="col-lg-5   col-md-4 col-sm-5" >
                             <div class="single-footer-caption mb-56">
                                 <div class="footer-tittle">
                                     <h4 class="text-center" style="margin-bottom: 2px; ">Apoiadores</h4>
-
-                                    <div class="row align-items-center justify-content-center">
+                                    <div class="row align-items-center justify-content-center"  id="footer_end">
                                         <img style="width: 150px;" src="imagens/site/icet.png" alt="">
                                         <img style="width: 170px;" src="imagens/site/ufam.png" alt="">
                                         <img style="width: 170px;" src="imagens/site/super.png" alt="">
